@@ -1,6 +1,5 @@
 import React from 'react'
-import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
+import { RiFlutterFill, RiReactjsLine } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { animate, motion } from "framer-motion";
 const iconVariants = (delay) => ({
@@ -24,14 +23,14 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className='rounded-2xl border-4  border-neutral-800 p-4'>
-                    <RiReactjsLine className='text-5xl text-cyan-400' />
+                    <RiReactjsLine className='text-5xl text-green-400' />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(2)}
                     initial="initial"
                     animate="animate"
                     className='rounded-2xl border-4  border-neutral-800 p-4'>
-                    <TbBrandNextjs className='text-5xl text-green-400' />
+                    <RiFlutterFill className='text-5xl text-cyan-400' />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(1.5)}

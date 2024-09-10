@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Projects = () => {
     return (
         <div className='border-b border-neutral-900 pb-4'>
-            <h2 className='text-center text-4xl my-20'>Projects</h2>
+            <h2 className='text-center text-4xl my-20'>Projects - only React.js</h2>
             <div>
                 {PROJECTS.map(
                     (projects, index) => (

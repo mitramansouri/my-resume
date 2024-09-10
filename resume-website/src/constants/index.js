@@ -1,40 +1,40 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/project-e.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a dedicated front-end developer with over 2 years of experience in product management and a solid foundation in computer science. With 1 year of hands-on experience in front-end development using Flutter and Reactjs, I have developed a keen eye for creating efficient and user-friendly applications. My goal is to combine my expertise in both product management and front-end technologies to deliver seamless digital solutions that enhance user experiences and drive business success.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a passionate and detail-oriented front-end developer with a strong foundation in product management, backed by over 2 years of experience. After graduating with a degree in Computer Science, I have developed a deep interest in creating intuitive and responsive user interfaces. My journey in development has expanded into working with Flutter, where I have gained over one year of hands-on experience building dynamic and scalable applications. I thrive on bridging the gap between product vision and technical execution, constantly seeking innovative solutions. Outside of development, I enjoy exploring new technologies and refining my skills in data analytics.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: " May 2024 - Present",
+    role: "React Developer",
+    company: "Freelance",
+    description: `Worked in a team developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    technologies: ["Javascript", "React.js", "Figma", "Figma-ui/ux"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "December 2022 - May 2024",
+    role: "Product Manager",
+    company: "Ayten Studio",
+    description: `Led a cross-functional team at Ayten Studio, driving the development and launch of multiple digital products from concept to delivery. Collaborated with design, development, and marketing teams to define product requirements, set priorities, and manage timelines. Facilitated stakeholder communication to align business goals with product strategy. Focused on team-building, ensuring smooth collaboration and continuous improvement of processes. Utilized soft skills such as teamwork, team management, and leadership to optimize team performance and deliver successful products.`,
+    technologies: ["SoftSkills" , "Team Work", "Team Building" ,"Team Management"],
   },
   {
     year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    role: "Flutter Developer",
+    company: "Kaarzan",
+    description: `Developed and maintained web applications using Flutter, Django, and firebase.`,
+    technologies: ["Flutter", "Firebase"],
   },
   {
     year: "2020 - 2021",
     role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    company: "Farhaan",
+    description: `Contributed to the development of applications using python. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+    technologies: ["Python", "QT5", "Sqlite"],
   },
 ];
 
@@ -54,14 +54,14 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
-    title: "Portfolio Website",
+    title: "Investment calculator app",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "A website for calculating monthly interest of invested money.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
+    title: "Tic-Tac-Toe",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
@@ -70,7 +70,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Shiraz, Iran for now. ",
+  phoneNo: "+98 991 746 6849",
+  email: "mitramansouri78@gmail.com",
 };
