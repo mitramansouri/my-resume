@@ -1,12 +1,12 @@
 import project1 from "../assets/projects/project-e.png";
 import project2 from "../assets/projects/project-2.jpg";
+import cyfrin from "../assets/projects/cyf.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import projc from "../assets/projects/projc.jpg";
 
-export const HERO_CONTENT = `I am a dedicated front-end developer with over 2 years of experience in product management and a solid foundation in computer science. With 1 year of hands-on experience in front-end development using Flutter and Reactjs, I have developed a keen eye for creating efficient and user-friendly applications. My goal is to combine my expertise in both product management and front-end technologies to deliver seamless digital solutions that enhance user experiences and drive business success.`;
-
-export const ABOUT_TEXT = `I am a passionate and detail-oriented front-end developer with a strong foundation in product management, backed by over 2 years of experience. After graduating with a degree in Computer Science, I have developed a deep interest in creating intuitive and responsive user interfaces. My journey in development has expanded into working with Flutter, where I have gained over one year of hands-on experience building dynamic and scalable applications. I thrive on bridging the gap between product vision and technical execution, constantly seeking innovative solutions. Outside of development, I enjoy exploring new technologies and refining my skills in data analytics.`;
-
+export const HERO_CONTENT = 'I am a developer with a background in computer science, over two years in product management, and expertise in React and Flutter. Now focusing on blockchain, I specialize in decentralized technologies, cryptography, and Solidity to create innovative digital solutions.'
+export const ABOUT_TEXT = 'I am a dedicated developer with a solid foundation in computer science, over two years of experience in product management, and hands-on expertise in front-end technologies like React and Flutter. Currently, I am expanding my skills as an aspiring blockchain developer, with a focus on decentralized technologies, cryptography, and smart contract development using Solidity. My goal is to integrate my expertise in front-end development, product management, and blockchain to create innovative digital solutions that enhance user experiences and drive success in emerging tech fields.'
 export const EXPERIENCES = [
   {
     year: " May 2024 - Present",
@@ -40,6 +40,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Time booking system",
+    image: projc,
+    description:
+      "An automated system that scrapes a website and quickly books available time slots. Built with React, Python, and Selenium, it ensures fast and efficient scheduling through continuous monitoring.",
+    technologies: ["HTML", "CSS", "React", "python", "selenium", ],
+  },
+  {
+    title: "FundMe",
+    image: cyfrin,
+    description:
+      "This project is a Web3-based crowdfunding dApp built as part of the Cyfrin Updraft 'Remix Fund Me' course. It demonstrates the use of Solidity smart contracts to manage and interact with a decentralized funding system. ",
+    technologies: [ "solidity"],
+  },
+  {
     title: "E-Commerce Website",
     image: project1,
     description:
@@ -70,7 +84,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Shiraz, Iran for now. ",
+  address: "Klagenfurt, Carinthia, Austria  ",
   phoneNo: "+98 991 746 6849",
   email: "mitramansouri78@gmail.com",
 };
