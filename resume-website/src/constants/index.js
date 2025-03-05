@@ -4,8 +4,8 @@ import cyfrin from "../assets/projects/cyf.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import projc from "../assets/projects/projc.jpg";
-import machineLearningImg from 'assets/projects/machineLearningImg.jpg';
-import aiTelegramBotImg from 'assets/projects/aiTelegramBotImg.jpg';
+import machineLearningImg from '../assets/projects/machineLearningImg.jpg';
+import aiTelegramBotImg from '../assets/projects/aiTelegramBotImg.jpg';
 export const ABOUT_TEXT = "👋 Welcome! I’m Mitra Barkeshloo Mansouri. \nI’m an AI Engineer, Software Developer, and Tech Enthusiast with a strong passion for machine learning, blockchain, and full-stack development. Currently pursuing my Master’s in Artificial Intelligence at Alpen-Adria-Universität Klagenfurt, I thrive at the intersection of cutting-edge AI research and real-world applications. \nWith hands-on experience in Python, React, Solidity, and cloud computing, I specialize in building scalable AI-driven solutions and decentralized applications. From optimizing web applications to developing predictive models and smart contracts, I love turning complex problems into innovative solutions.\nBeyond coding, I enjoy participating in hackathons, collaborating on open-source projects, and sharing insights on AI and software development. My goal is to bridge the gap between AI and practical applications, making technology more efficient and accessible."
 
 export const HERO_CONTENT = 'I specialize in Artificial Intelligence, Blockchain Development, and Full-Stack Engineering, turning complex challenges into cutting-edge solutions. Passionate about machine learning, cloud computing, and decentralized technologies, I thrive on innovation and problem-solving.'
