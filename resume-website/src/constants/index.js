@@ -4,10 +4,11 @@ import cyfrin from "../assets/projects/cyf.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import projc from "../assets/projects/projc.jpg";
+import machineLearningImg from 'assets/projects/machineLearningImg.jpg';
+import aiTelegramBotImg from 'assets/projects/aiTelegramBotImg.jpg';
+export const ABOUT_TEXT = "👋 Welcome! I’m Mitra Barkeshloo Mansouri. \nI’m an AI Engineer, Software Developer, and Tech Enthusiast with a strong passion for machine learning, blockchain, and full-stack development. Currently pursuing my Master’s in Artificial Intelligence at Alpen-Adria-Universität Klagenfurt, I thrive at the intersection of cutting-edge AI research and real-world applications. \nWith hands-on experience in Python, React, Solidity, and cloud computing, I specialize in building scalable AI-driven solutions and decentralized applications. From optimizing web applications to developing predictive models and smart contracts, I love turning complex problems into innovative solutions.\nBeyond coding, I enjoy participating in hackathons, collaborating on open-source projects, and sharing insights on AI and software development. My goal is to bridge the gap between AI and practical applications, making technology more efficient and accessible."
 
-export const HERO_CONTENT = "👋 Welcome! I’m Mitra Barkeshloo Mansouri. \nI’m an AI Engineer, Software Developer, and Tech Enthusiast with a strong passion for machine learning, blockchain, and full-stack development. Currently pursuing my Master’s in Artificial Intelligence at Alpen-Adria-Universität Klagenfurt, I thrive at the intersection of cutting-edge AI research and real-world applications. \nWith hands-on experience in Python, React, Solidity, and cloud computing, I specialize in building scalable AI-driven solutions and decentralized applications. From optimizing web applications to developing predictive models and smart contracts, I love turning complex problems into innovative solutions.\nBeyond coding, I enjoy participating in hackathons, collaborating on open-source projects, and sharing insights on AI and software development. My goal is to bridge the gap between AI and practical applications, making technology more efficient and accessible."
-
-export const ABOUT_TEXT = 'I am a dedicated developer with a solid foundation in computer science, over two years of experience in product management, and hands-on expertise in front-end technologies like React and Flutter. Currently, I am expanding my skills as an aspiring blockchain developer, with a focus on decentralized technologies, cryptography, and smart contract development using Solidity. My goal is to integrate my expertise in front-end development, product management, and blockchain to create innovative digital solutions that enhance user experiences and drive success in emerging tech fields.'
+export const HERO_CONTENT = 'I specialize in Artificial Intelligence, Blockchain Development, and Full-Stack Engineering, turning complex challenges into cutting-edge solutions. Passionate about machine learning, cloud computing, and decentralized technologies, I thrive on innovation and problem-solving.'
 export const EXPERIENCES = [
   {
     year: " May 2024 - Present",
@@ -18,7 +19,7 @@ export const EXPERIENCES = [
   },
   {
     year: "December 2022 - May 2024",
-    role: "Product Manager",
+    role: "Product Manager",  
     company: "Ayten Studio",
     description: `Led a cross-functional team at Ayten Studio, driving the development and launch of multiple digital products from concept to delivery. Collaborated with design, development, and marketing teams to define product requirements, set priorities, and manage timelines. Facilitated stakeholder communication to align business goals with product strategy. Focused on team-building, ensuring smooth collaboration and continuous improvement of processes. Utilized soft skills such as teamwork, team management, and leadership to optimize team performance and deliver successful products.`,
     technologies: ["SoftSkills" , "Team Work", "Team Building" ,"Team Management"],
@@ -40,6 +41,22 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Machine Learning Projects",
+    image: machineLearningImg, // Add a relevant image
+    description:
+      "A collection of Jupyter Notebook projects covering various machine learning concepts, from data preprocessing to model building and evaluation. This repository serves as an exploration of ML techniques and algorithms.",
+    technologies: ["Python", "Jupyter Notebook", "Scikit-Learn", "TensorFlow", "Pandas"],
+    link: "https://github.com/mitramansouri/machine-learning",
+  },
+  {
+    title: "AI Agent Model - Telegram Bot Integration",
+    image: aiTelegramBotImg, // Add a relevant image
+    description:
+      "A fork of the Eliza Mode Example with added functionality for integrating AI-driven actions into a Telegram bot client. Enhances chatbot capabilities with dynamic responses and intelligent interaction handling.",
+    technologies: ["Python", "Shell Scripting", "Docker", "Telegram API"],
+    link: "https://github.com/mitramansouri/eliza-mode-example",
+  },
   {
     title: "Time booking system",
     image: projc,
@@ -85,7 +102,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Klagenfurt, Carinthia, Austria  ",
-  phoneNo: "+98 991 746 6849",
+  address: "Klagenfurt am Worthesee, Carinthia, Austria  ",
+  phoneNo: "+43 664 99061557",
   email: "mitramansouri78@gmail.com",
 };
